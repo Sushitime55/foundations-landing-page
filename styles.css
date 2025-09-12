@@ -75,6 +75,10 @@ a {
 .button {
   background-color: #3882f6;
   color: white;
+  border-radius: 10px;
+  padding: 4px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 /* INFO */
@@ -123,6 +127,36 @@ a {
   font-weight: 900;
   text-align: end;
   padding-right: 72px;
+}
+
+/* CALL TO ACTION */
+.call-to-action {
+  background-color: #3882f6;
+  margin: 72px;
+  padding: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.call-to-action-text {
+  border: 2px solid red;
+  gap: 0;
+  color: white;
+}
+
+.call-to-action-text h1 {
+  margin: 0;
+}
+
+.call-to-action-text p {
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.call-to-action .button {
+  border: 2px solid white;
 }
 
 /* FOOTER */
