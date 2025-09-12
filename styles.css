@@ -34,18 +34,14 @@ body {
   display: flex;
   justify-content: center;
   gap: 72px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   padding: 96px 0;
 }
 
-.opener-container img {
-  background-color: slategray;
-}
-
 .opener-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: auto;
-  max-width: 500px;
+  max-width: 400px;
   flex: 1;
 }
 
@@ -61,6 +57,14 @@ body {
   /* border: 2px solid yellow; */
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.opener-container.big-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  min-width: 200px;
 }
 
 ul {
@@ -85,12 +89,19 @@ a {
   cursor: pointer;
 }
 
+img {
+  max-width: 100%;
+  min-width: 100px;
+  height: auto;
+}
+
 /* INFO */
 .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 32px 64px;
+  padding-bottom: 96px;
   gap: 32px;
 }
 
@@ -108,14 +119,27 @@ a {
 
 .info-box {
   flex: 1;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   text-align: center;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-img {
+  /* border: 2px solid green; */
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* QUOTE */
 .quote {
   background-color: #e5e7eb;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 32px 64px;
   font-size: 36px;
   color: #1f2937;
@@ -129,7 +153,7 @@ a {
 
 .quote-container {
   max-width: 1200px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   padding: 0 16px;
 }
 
@@ -143,7 +167,7 @@ a {
 /* CALL TO ACTION */
 .call-to-action {
   padding: 64px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
 }
@@ -151,7 +175,7 @@ a {
 .call-to-action-container {
   padding: 56px 128px;
   background-color: #3882f6;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -161,9 +185,12 @@ a {
 }
 
 .call-to-action-text {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   gap: 0;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .call-to-action-text h1 {
@@ -177,6 +204,7 @@ a {
 
 .call-to-action .button {
   border: 2px solid white;
+  font-size: 16px;
 }
 
 /* FOOTER */
