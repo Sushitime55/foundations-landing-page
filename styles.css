@@ -2,6 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  gap: 48x;
+  font-family: "roboto";
 }
 
 /* HEADER */
@@ -31,8 +33,9 @@ body {
 .opener {
   display: flex;
   justify-content: center;
-  gap: 48px;
-  /* border: 2px solid green; */
+  gap: 72px;
+  border: 2px solid green;
+  padding: 96px 0;
 }
 
 .opener-container img {
@@ -40,9 +43,10 @@ body {
 }
 
 .opener-container {
-  /* border: 2px solid red; */
-  width: 150px;
-  flex: 1 1 auto;
+  border: 2px solid red;
+  height: auto;
+  max-width: 500px;
+  flex: 1;
 }
 
 .opener-container h1 {
@@ -76,7 +80,7 @@ a {
   background-color: #3882f6;
   color: white;
   border-radius: 10px;
-  padding: 4px 20px;
+  padding: 6px 24px;
   border: none;
   cursor: pointer;
 }
@@ -116,10 +120,17 @@ a {
   font-size: 36px;
   color: #1f2937;
   font-weight: 300;
+  padding: 48px 0;
   /* max-width: 900px; */
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  justify-content: center;
   /* align-self: center; */
+}
+
+.quote-container {
+  max-width: 1200px;
+  border: 2px solid blue;
+  padding: 0 16px;
 }
 
 .quote-author {
