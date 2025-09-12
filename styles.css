@@ -30,8 +30,9 @@ body {
 
 .opener {
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 48px;
+  /* border: 2px solid green; */
 }
 
 .opener-container img {
@@ -39,8 +40,8 @@ body {
 }
 
 .opener-container {
-  border: 2px solid red;
-  width: 50px;
+  /* border: 2px solid red; */
+  width: 150px;
   flex: 1 1 auto;
 }
 
@@ -48,9 +49,12 @@ body {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
+  /* border: 2px solid yellow; */
+  margin: 0;
 }
 
 .opener-container p {
+  /* border: 2px solid yellow; */
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -72,6 +76,8 @@ a {
   background-color: #3882f6;
   color: white;
 }
+
+/* info */
 
 /* footer */
 .footer {
