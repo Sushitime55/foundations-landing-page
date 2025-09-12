@@ -142,13 +142,22 @@ a {
 
 /* CALL TO ACTION */
 .call-to-action {
-  background-color: #3882f6;
-  margin: 72px;
   padding: 64px;
+  border: 2px solid red;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.call-to-action-container {
+  padding: 56px 128px;
+  background-color: #3882f6;
+  border: 2px solid green;
   border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  max-width: 800px;
 }
 
 .call-to-action-text {
